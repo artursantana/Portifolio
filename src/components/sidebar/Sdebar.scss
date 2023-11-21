@@ -25,12 +25,18 @@ aside {
     font-size: 1.5rem;
     color: $title-Color;
     font-weight: $font-bold;
+    transition: .3s;
+
+    &:hover {
+        color: hsl(43, 100%, 68%);
+    }
 }
 
 .copyright {
     color: hsl(245, 15%, 65%);
     font-size: $small-font-size;
     transform: rotate(-180deg);
+    writing-mode: vertical-rl;
 }
 
 
