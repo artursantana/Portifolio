@@ -4,7 +4,7 @@ const ScrollDown = () => {
     <div className="scroll_down">
       <a href="#about" className="mouse_wrapper">
         <span className="home_scroll-name"></span>
-        <span className="mouse">Scroll Down</span>
+        <span className="mouse"></span>
         <span className="wheel"></span>
 
       </a>
