@@ -20,7 +20,7 @@ const Sidebar = () => {
                 </a>
               </li>
               <li className="nav_item">
-                <a href="#user" className="nav_link">
+                <a href="#about" className="nav_link">
                 <FontAwesomeIcon className='icon-user' icon={faUser} />
                 </a>
               </li>

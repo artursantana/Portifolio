@@ -30,12 +30,13 @@
     display: flex;
     column-gap: 1.75rem;
     margin: 1.5rem 0;
+    justify-content: center;
 }
 
 
 .home_social-link {
     color: $title-Color;
-    font-size: 1.3rem;
+    font-size: 2rem;
     transition: .3s;
 
     &:hover {
@@ -99,7 +100,7 @@
     width: 100%;
     margin-top: 50px;
 
-    
+
     .home_scroll-name{
         font-size: $small-font-size;
     }

@@ -1,8 +1,7 @@
 
 
 import Sidebar from './components/sidebar/Sidebar';
-import Home from './components/home/Home';
-
+import Home from './components/home/Home';import About from './components/about/About';
 
 function App() {
   return (
@@ -10,6 +9,7 @@ function App() {
       <h1>artur</h1>
       <Sidebar />
       <Home />
+      <About />
     </>
   );
 }
