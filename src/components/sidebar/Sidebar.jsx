@@ -7,6 +7,7 @@ const Sidebar = () => {
   const artur = '<Artur />'
   return (
     <aside>
+      <i className="fa-solid fa-forward"></i>
         <nav className="nav">
         <div className='nav_name'>{artur}</div>
           <div className="nav_menu">

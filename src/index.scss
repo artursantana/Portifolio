@@ -3,7 +3,7 @@
 $first-Color: hsl(353, 100%, 65%);
 $title-Color: hsl(244, 24%, 26%);
 $text-Color: hsl(244, 16%, 43%);
-$body-Color: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(108,0,112,1) 100%);
+$body-Color: #7b7b7b;
 $container-Color: #fff;
 
 
@@ -62,7 +62,7 @@ body,button,input,textarea {
 }
 
 body{
-  background-image: linear-gradient( 110.6deg,  rgba(156,116,129,1) -18.3%, rgba(67,54,74,1) 16.4%, rgba(47,48,67,1) 68.2%, rgba(27,23,36,1) 99.1% );
+  background-color: $body-Color;
   line-height: 1.7;
   color: var($text-Color);
 }
