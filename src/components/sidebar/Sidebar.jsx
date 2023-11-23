@@ -1,18 +1,16 @@
 import { faHouse, faUser,faBriefcase } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '../sidebar/Sdebar.scss'
-import Logo from '../../assets/logo.svg'
 
 
 const Sidebar = () => {
+  const artur = '<Artur />'
   return (
     <aside>
-        <a href="home" className='nav_logo'>
-          <img src={Logo} alt="logo" />
-        </a>
-      
         <nav className="nav">
-          <div className="nav_manu">
+        <div className='nav_name'>{artur}</div>
+          <div className="nav_menu">
+            
             <ul className="nav_list">
               <li className="nav_item">
                 <a href="#home" className="nav_link">
@@ -30,10 +28,6 @@ const Sidebar = () => {
             </ul>
           </div>
         </nav>
-
-        <div className="nav_footer">
-          <span className='copyright'>&copy; 2023 - 2024.</span>
-        </div>
 
     </aside>
   )

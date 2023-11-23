@@ -13,15 +13,33 @@ aside {
     flex-direction: column;
     justify-content: space-between;
     z-index: 10;
-}
 
-.nav_list {
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
-}
+    .nav_name {
+        
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        left: 0;
+    }
 
-.nav_link {
+    .nav_menu {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+    
+    .nav_list {
+        display: flex;
+        
+        height: 70%;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    
+    .nav_link {
     font-size: 1.5rem;
     color: $title-Color;
     font-weight: $font-bold;
@@ -32,12 +50,7 @@ aside {
     }
 }
 
-.copyright {
-    color: hsl(245, 15%, 65%);
-    font-size: $small-font-size;
-    transform: rotate(-180deg);
-    writing-mode: vertical-rl;
+
 }
 
 
-    

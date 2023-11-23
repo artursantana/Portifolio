@@ -90,13 +90,33 @@
             background-color: rgba(108,209,92);
         }
     }
-
-   
-
+}
 
 
-    
 
+
+
+.about_boxes {
+
+    grid-template-columns: repeat(3, 1fr);
+    columns: 1.875rem;
+    margin-top: 4.35rem;
+
+
+        .about_box {
+            display: flex;
+            column-gap: 1.5rem;
+            margin: auto;
+        }
+
+        .about_icon {
+            font-size: $h1-font-size;
+            color: #dedeea;
+        }
+
+        .about_title {
+            font-size: 1.875rem;
+        }
 
 
 
