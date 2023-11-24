@@ -21,11 +21,15 @@ top: 0;
         text-align: start;
         background-color: red;
     }
+     .home_div1{
+        text-align: start;
+        background-color: blue;
+    }
     
 }
 
 .intro {
-    width: 440px; height:200px ;
+    width: 640px; height:200px ;
     text-align: center;
     background-color: $container-Color;
     border-radius: 100px 200px 10px 100px;
