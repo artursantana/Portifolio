@@ -5,9 +5,18 @@ import '../sidebar/Sdebar.scss'
 
 const Sidebar = () => {
   const artur = '<Artur />'
+
+    const acitveNavbar = () => {
+      const aside = document.getElementById('aside')
+      const rotateArrows = document.getElementById('rotate')
+      aside.classList.toggle('active_nav_bar')
+
+      rotateArrows.classList.toggle('rotArrow')
+    }
+
   return (
-    <aside>
-      <i className="fa-solid fa-forward"></i>
+    <aside id='aside'>
+      <i className="fa-solid fa-forward nav_arrow" id='rotate' onClick={acitveNavbar}></i>
         <nav className="nav">
         <div className='nav_name'>{artur}</div>
           <div className="nav_menu">

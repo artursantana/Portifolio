@@ -12,10 +12,13 @@ const Home = () => {
   return (
     <section className="home container" id="home">
       <div className="intro">
-         <div>       
-          <h1 className='home_name'>Your Next Front-End Developer</h1>
+         <div className='home_name'>       
+          <div className='home_div'>
+            Your Next
+          </div>
+            <div className='home_div1'>Front-End Developer</div>
         </div>
-        <span className='home_education'>Front-End Developer</span>
+        <span className='home_education'></span>
 
         <HeaderSocials />
 
