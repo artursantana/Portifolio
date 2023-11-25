@@ -17,6 +17,8 @@ const HeaderSocials = () => {
         <a href="#" className="home_social-link" target="_black">
         <FontAwesomeIcon icon={faInstagram} />
         </a>
+
+        
     </div>
   )
 }
