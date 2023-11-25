@@ -16,6 +16,7 @@ const Home = () => {
           <div className='home_div'>
             Your Next
           </div>
+          
             <div className='home_div1'>Front-End Developer</div>
         </div>
         <span className='home_education'></span>
