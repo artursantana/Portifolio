@@ -13,13 +13,12 @@ const Home = () => {
     <section className="home container" id="home">
       
       <div className="intro">
-         <div className='home_name'>       
+               
           <div className='home_div'>
             Your Next
           </div>
           
             <div className='home_div1'>Front-End Developer</div>
-        </div>
 
         <HeaderSocials />
 
