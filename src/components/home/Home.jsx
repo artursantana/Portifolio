@@ -18,7 +18,7 @@ const Home = () => {
             Your Next
           </div>
           
-            <div className='home_div1'>Front-End Developer</div>
+            <div className='home_div1'>Front-End dev</div>
 
         <HeaderSocials />
 
