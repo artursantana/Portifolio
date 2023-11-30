@@ -12,26 +12,59 @@
 }
 
     .home_div{
-        text-align: start;
-        
+        color: black;
         font-size: 100px; 
+        position: absolute;
+        left: 0;
+       top: 60px;
+       opacity: 0.5;
+       animation: name_front 2s both;
     }
-     .home_div1{
-        
 
+    @keyframes name_front {
+        0% {
+            opacity: 0;
+            left: 0%;
+        }
+        100% {
+            left: 25%;
+            opacity: 1;
+            
+        }
+    }
+
+     .home_div1{
+        position: absolute;
         justify-content: flex-end;
         font-size: 100px; 
-        background-color: white;
         color: black;
-        
+        right: 0;
+        top: 110px;
+        opacity: 0.5;
+        animation: name_front1 2s both;
     }
+
+    @keyframes name_front1 {
+        0% {
+            opacity: 0;
+            right: 0%;
+        }
+        100% {
+            right: 25%;
+            opacity: 1;
+            
+        }
+    }
+
+    
     
 
 .intro {
+    background-color: blue; 
     width: 640px; height:300px ;
     text-align: center;
     color: white;
-    border-radius: 100px 200px 10px 100px;
+    
 
     div {
         display: flex;
