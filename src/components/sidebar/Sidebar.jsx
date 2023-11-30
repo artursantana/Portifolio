@@ -16,7 +16,7 @@ const Sidebar = () => {
 
   return (
     <aside id='aside'>
-      <i className="fa-solid fa-forward nav_arrow" id='rotate' onClick={acitveNavbar}></i>
+      <i className="fa-solid fa-angles-down nav_arrow" id='rotate' onClick={acitveNavbar}></i>
         <nav className="nav">
         <div className='nav_name'>{artur}</div>
           <div className="nav_menu">

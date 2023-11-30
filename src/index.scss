@@ -49,6 +49,7 @@ $smaller-font-size: 0.75rem;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 html {
@@ -62,7 +63,7 @@ body,button,input,textarea {
 }
 
 body{
-  background-color: $body-Color;
+  background-color: black;
   line-height: 1.7;
   color: var($text-Color);
 }
