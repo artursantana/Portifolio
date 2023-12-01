@@ -23,17 +23,17 @@ const Sidebar = () => {
             
             <ul className="nav_list">
               <li className="nav_item">
-                <a href="#home" className="nav_link">
+                <a href="#home" className="nav_link">Home
                   <FontAwesomeIcon className='icon-home' icon={faHouse} />
                 </a>
               </li>
               <li className="nav_item">
-                <a href="#about" className="nav_link">
+                <a href="#about" className="nav_link">Contact
                 <FontAwesomeIcon className='icon-user' icon={faUser} />
                 </a>
               </li>
               <li className="nav_item">
-                <a href="#" className="nav_link"> <FontAwesomeIcon icon={faBriefcase} /></a>
+                <a href="#" className="nav_link"> Projects <FontAwesomeIcon icon={faBriefcase} /></a>
               </li>
             </ul>
           </div>
