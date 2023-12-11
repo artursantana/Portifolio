@@ -56,12 +56,12 @@ aside {
     
     .nav_link {
     font-size: 1.5rem;
-    color: $title-Color;
+    color: white;
     font-weight: $font-bold;
     transition: .3s;
 
     &:hover {
-        color: hsl(43, 100%, 68%);
+        color:$title-Color ;
     }
 }
 

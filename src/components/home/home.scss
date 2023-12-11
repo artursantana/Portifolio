@@ -15,12 +15,14 @@
         font-size: 100px; 
         position: absolute;
         left: 0;
-       top: 60px;
-       opacity: 0.5;
-       animation: name_front 3s both;
-       @media (max-width:560px) {
+        top: 60px;
+        opacity: 0.5;
+        animation: name_front 3s both;
+
+    @media (max-width:560px) {
         font-size: 60px;   
     }
+
     }
     
     @keyframes name_front {
@@ -47,10 +49,10 @@
         
     @media (max-width:560px) {
         font-size: 60px;
-        
-    }
     }
 
+    }
+    
     @keyframes name_front1 {
         0% {
             opacity: 0;
@@ -58,11 +60,9 @@
         }
         100% {
             right: 25%;
-            opacity: 1;
-            
+            opacity: 1; 
         }
     }
-
 }
 
     
@@ -103,12 +103,12 @@
 
 
 .home_social-link {
-    color: $title-Color;
-    font-size: 2rem;
+    color: black;
+    font-size: 2.5rem;
     transition: .3s;
     
     &:hover {
-        color: hsl(43, 100%, 68%);
+        color: $title-Color;
     }
 }
 
@@ -116,7 +116,7 @@
 .btn{
   align-items: center;
   background-clip: padding-box;
-  background-color: #fa6400;
+  background-color: $title-Color;
   border: 1px solid transparent;
   border-radius: .25rem;
   box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
@@ -136,14 +136,13 @@
   text-decoration: none;
   transition: all 250ms;
   user-select: none;
-  -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: baseline;
   width: auto;
 
   &:hover,
 &:focus {
-  background-color: #fb8332;
+  background-color: $title-Color;
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 
@@ -151,7 +150,7 @@
     transform: translateY(-1px);
     
     &:active {
-        background-color: #c85000;
+        background-color: $title-Color;
         box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
         transform: translateY(0);
     }
@@ -210,7 +209,7 @@
     left: 50%;
     transform: translateX(-50%);
     animation: ani-mouse 2s linear infinite;
-    background-color: #fa6400;
+    background-color: $title-Color;
 }
 }
 
