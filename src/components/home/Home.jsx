@@ -10,7 +10,7 @@ import ScrollDown from './ScrollDown'
 
 const Home = () => {
   return (
-    <section className="home container" id="home">
+    <section name='Home' className="home container" id="home">
       
       <div className="intro">
                

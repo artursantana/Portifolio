@@ -14,7 +14,7 @@ const Projects = () => {
   
     return (
       
-        <div className='Swiper_container_central'>
+        <div name='Project' className='Swiper_container_central'>
           <h1>Project</h1>
           <Swiper 
             // install Swiper modules
