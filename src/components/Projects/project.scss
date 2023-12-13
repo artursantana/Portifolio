@@ -1,0 +1,55 @@
+.Swiper_container_central{
+    margin-top:100px;
+    text-align: center;
+
+    h1{
+        font-size: 80px;
+        margin: 10px;
+    }
+
+    .Swiper_container_components {
+        display: flex;
+        padding: 20px;
+        
+    }
+
+    .project {
+        display: flex;
+        width: 50%;
+        height: 70vh;
+        
+
+            img {
+                margin: auto;
+                width:100px;
+            }
+    }
+
+    .container_text {
+        margin: auto;
+        width: 50%;
+        
+    }
+
+    @media (max-width: 760px) {
+
+        .project {
+            display: flex;
+            width: 50%;
+            height: 40vh;
+            margin: auto;
+            
+
+    
+                img {
+                    
+                }
+        }
+
+        .container_text {
+           display: none;
+        }
+    }
+
+}
+

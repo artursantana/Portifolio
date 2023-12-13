@@ -4,6 +4,7 @@ import '../sidebar/Sdebar.scss'
 
 
 const Sidebar = () => {
+
   const artur = '<Artur />'
 
     const acitveNavbar = () => {
@@ -22,6 +23,7 @@ const Sidebar = () => {
           <div className="nav_menu">
             
             <ul className="nav_list">
+              
               <li className="nav_item">
                 <a href="#home" className="nav_link">Home
                   <FontAwesomeIcon className='icon-home' icon={faHouse} />
