@@ -28,10 +28,12 @@ aside {
         font-size: 25px;
         cursor: pointer;
         transition: all 1s;
+        color: $title-Color;
     }
 
     .rotArrow {
         transform: rotate(180deg);
+        color: black;
     }
 
     .nav_name {

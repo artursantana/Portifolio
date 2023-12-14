@@ -15,10 +15,10 @@ const Home = () => {
       <div className="intro">
                
           <div className='home_div'>
-            Your Next
+          <p>Y</p>our Next
           </div>
           
-            <div className='home_div1'>Front-End</div>
+            <div className='home_div1'>Front-<p>E</p>nd</div>
 
         <HeaderSocials />
 

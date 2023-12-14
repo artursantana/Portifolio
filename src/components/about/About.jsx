@@ -1,6 +1,5 @@
 import Logo from '../../assets/logo.png'
 
-import AboutBox from './AboutBox'
 
 import '../../index.scss'
 import './About.scss'
@@ -61,7 +60,6 @@ const About = () => {
             </div>
         </div>
 
-        <AboutBox />
     </section>
   )
 }

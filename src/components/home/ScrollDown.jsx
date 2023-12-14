@@ -1,15 +1,20 @@
 
+import { Link } from 'react-scroll';
+
 const ScrollDown = () => {
   return (
     <div className="scroll_down">
-      <a href="#about" className="mouse_wrapper">
+      
+      <Link to='About' smooth={true} offset={0} duration={1000}>
+
         <span className="home_scroll-name"></span>
         <span className="mouse">
         <span className="wheel"></span>
         </span>
         
+      </Link>
 
-      </a>
+    
     </div>
   )
 }
