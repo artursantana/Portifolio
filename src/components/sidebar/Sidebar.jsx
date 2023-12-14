@@ -31,13 +31,6 @@ const Sidebar = () => {
                   <FontAwesomeIcon className='icon-home' icon={faHouse} />
                 </Link>
               </li>
-              
-              <li className="nav_item">
-                <Link to='Project' smooth={true} offset={-50} duration={1000} className="nav_link">
-                  Projects
-                  <FontAwesomeIcon icon={faBriefcase} />
-                </Link>
-              </li>
 
               <li className="nav_item">
                 <Link to='About' smooth={true} offset={0} duration={1000} className="nav_link">
@@ -46,13 +39,20 @@ const Sidebar = () => {
                 </Link>
               </li>
 
+              <li className="nav_item">
+                <Link to='Project' smooth={true} offset={-50} duration={1000} className="nav_link">
+                  Projects
+                  <FontAwesomeIcon icon={faBriefcase} />
+                </Link>
+              </li>
+
             </ul>
           </div>
         </nav>
       </aside>
       <Home />
-      <Projects />
       <About />
+      <Projects />
     </div>
   );
 };
