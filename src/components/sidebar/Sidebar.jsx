@@ -6,6 +6,7 @@ import '../sidebar/Sdebar.scss';
 import Home from '../home/Home';
 import Projects from '../Projects/Projects';
 import About from '../about/About';
+import Footer from '../Footer/Footer';
 
 const Sidebar = () => {
   const artur = '<Artur />';
@@ -51,8 +52,9 @@ const Sidebar = () => {
         </nav>
       </aside>
       <Home />
-      <About />
       <Projects />
+      <About />
+      <Footer />
     </div>
   );
 };

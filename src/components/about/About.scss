@@ -17,27 +17,15 @@
     }
 
     .about_data {
-        width: 70%;
+        width: 60%;
         margin: auto;
         padding: 1.875rem;
         background-color: $container-Color;
         box-shadow: $shadow;
         border-radius: $border-radius;
-        grid-template-columns: repeat(2, 1fr);
         column-gap: 1.875rem;
-        align-items: flex-start;
-        position: relative;
-
-        &::before {
-            content: '';
-            width: 0;
-            height: 0;
-            border-top: 10px solid transparent;
-            border-right: 15px solid $container-Color;
-            position: absolute;
-            left: -0.93rem;
-            top: 20%;
-        }
+        align-items: center;
+        
 
         .about_description{
             margin-bottom: 1rem;
@@ -45,39 +33,13 @@
         }
 
         .about_info {
+            margin: auto;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
         }
 
-        .about_skills {
-            row-gap: 1.25rem;
-        }
-
-        .skills_titles {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 1rem;
-        }
-        .skills_name {
-            font-size: $normal-font-size;
-            font-weight: $font-medium;
-        }
-        .skills_number {
-            line-height: 1.2;
-        }
-        .skills_bar,.skills_percentage{
-            height: 7px;
-            border-radius: 0.25rem;
-        }
-        .skills_bar {
-            background-color: #a2a0a0;
-        }
-        .skills_percentage {
-            display: block;
-        }
-      
     }
 }
 
@@ -85,28 +47,4 @@
 
 
 
-.about_boxes {
 
-    grid-template-columns: repeat(3, 1fr);
-    columns: 1.875rem;
-    margin-top: 4.35rem;
-
-
-        .about_box {
-            display: flex;
-            column-gap: 1.5rem;
-            margin: auto;
-        }
-
-        .about_icon {
-            font-size: $h1-font-size;
-            color: #dedeea;
-        }
-
-        .about_title {
-            font-size: 1.875rem;
-        }
-
-
-
-}
