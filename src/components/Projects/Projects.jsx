@@ -33,7 +33,11 @@ const Projects = () => {
               <img className='project container_project0' src="../src/assets/noprojects.png" alt="img" />
           
               <div className='container_text'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse dolorum praesentium, voluptatem ipsum quae laudantium rerum exercitationem saepe unde, aspernatur tenetur tempore facilis rem cumque dolor similique quia at nulla.
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse dolorum praesentium, voluptatem ipsum quae laudantium rerum exercitationem saepe unde, aspernatur tenetur tempore facilis rem cumque dolor similique quia at nulla.</p>
+                <div className='container_buttons'>
+                  <button>Deploy</button>
+                  <button>WebSite</button>
+                </div>
               </div>
             </SwiperSlide>
             <SwiperSlide className='Swiper_container_components'>
@@ -41,7 +45,11 @@ const Projects = () => {
               <img className='project container_project0' src="../src/assets/noprojects.png" alt="img" />
           
               <div className='container_text'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse dolorum praesentium, voluptatem ipsum quae laudantium rerum exercitationem saepe unde, aspernatur tenetur tempore facilis rem cumque dolor similique quia at nulla.
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse dolorum praesentium, voluptatem ipsum quae laudantium rerum exercitationem saepe unde, aspernatur tenetur tempore facilis rem cumque dolor similique quia at nulla.</p>
+                <div>
+                  <button>Deploy</button>
+                  <button>WebSite</button>
+                </div>
               </div>
             </SwiperSlide>
             <SwiperSlide className='Swiper_container_components'>
@@ -49,7 +57,11 @@ const Projects = () => {
               <img className='project container_project0' src="../src/assets/noprojects.png" alt="img" />
           
               <div className='container_text'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse dolorum praesentium, voluptatem ipsum quae laudantium rerum exercitationem saepe unde, aspernatur tenetur tempore facilis rem cumque dolor similique quia at nulla.
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse dolorum praesentium, voluptatem ipsum quae laudantium rerum exercitationem saepe unde, aspernatur tenetur tempore facilis rem cumque dolor similique quia at nulla.</p>
+                <div>
+                  <button>Deploy</button>
+                  <button>WebSite</button>
+                </div>
               </div>
             </SwiperSlide>
             <SwiperSlide className='Swiper_container_components'>
@@ -57,7 +69,11 @@ const Projects = () => {
               <img className='project container_project0' src="../src/assets/noprojects.png" alt="img" />
           
               <div className='container_text'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse dolorum praesentium, voluptatem ipsum quae laudantium rerum exercitationem saepe unde, aspernatur tenetur tempore facilis rem cumque dolor similique quia at nulla.
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse dolorum praesentium, voluptatem ipsum quae laudantium rerum exercitationem saepe unde, aspernatur tenetur tempore facilis rem cumque dolor similique quia at nulla.</p>
+                <div>
+                  <button>Deploy</button>
+                  <button>WebSite</button>
+                </div>
               </div>
             </SwiperSlide>
           </Swiper>
