@@ -1,6 +1,6 @@
 import '../Projects/project.scss'
 
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+/*import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -8,20 +8,27 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+import 'swiper/css/scrollbar';*/
 
 const Projects = () => {
   
     return (
-      
+
+      <div>
+        
+      </div>
+
+
+     /* 
         <div name='Project' className='Swiper_container_central'>
-          <h1>Project</h1>
+          
           <Swiper 
             // install Swiper modules
             modules={[Navigation, Pagination, Scrollbar, A11y]}
           
             slidesPerView={1}
             navigation
+            
             pagination={{ clickable: true }}
             scrollbar={{ draggable: true }}
             onSwiper={(swiper) => console.log(swiper)}
@@ -30,11 +37,10 @@ const Projects = () => {
           
             <SwiperSlide className='Swiper_container_components'>
           
-              <div className='container_img'>
-                
-              </div>
+             
   
               <div className='container_text'>
+                <img src="./src/assets/noprojects.png" alt="imgproject" />
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse dolorum praesentium.</p>
                 <div className='container_buttons'>
                   <button>Deploy</button>
@@ -80,6 +86,8 @@ const Projects = () => {
             </SwiperSlide>
           </Swiper>
         </div>
+        */
+
       );
 }
 
