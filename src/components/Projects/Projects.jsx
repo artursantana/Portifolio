@@ -30,10 +30,12 @@ const Projects = () => {
           
             <SwiperSlide className='Swiper_container_components'>
           
-              <img className='project container_project0' src="../src/assets/noprojects.png" alt="img" />
-          
+              <div className='container_img'>
+                
+              </div>
+  
               <div className='container_text'>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse dolorum praesentium, voluptatem ipsum quae laudantium rerum exercitationem saepe unde, aspernatur tenetur tempore facilis rem cumque dolor similique quia at nulla.</p>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse dolorum praesentium.</p>
                 <div className='container_buttons'>
                   <button>Deploy</button>
                   <button>WebSite</button>

@@ -1,6 +1,10 @@
+@import '../../index.scss';
+
+
 .Swiper_container_central{
     margin-top:100px;
     text-align: center;
+    box-shadow: $shadow;
 
     h1{
         font-size: 80px;
@@ -16,19 +20,68 @@
     .project {
         display: flex;
         width: 50%;
-        height: 70vh;
+        height: 50vh;
         
-
-            img {
-                margin: auto;
-                width:100px;
-            }
+        
     }
+    .container_img {
+        width: 40%;
+        height: 350px;
+        background: no-repeat url("./src/assets/noprojects.png");
+        background-position: center;
+        background-size: cover;
+      }
+      
 
     .container_text {
         margin: auto;
-        width: 50%;
+        width: 250px;
+        background-color: red;
         
+    }
+    .container_buttons{
+        button{
+            align-items: center;
+background-clip: padding-box;
+background-color: $title-Color;
+border: 1px solid transparent;
+border-radius: .25rem;
+box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+box-sizing: border-box;
+color: $container-Color01;
+cursor: pointer;
+font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 16px;
+font-weight: 600;
+justify-content: center;
+line-height: 1.25;
+margin: 0;
+min-height: 3rem;
+padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+position: relative;
+text-decoration: none;
+transition: all 250ms;
+user-select: none;
+touch-action: manipulation;
+vertical-align: baseline;
+width: auto;
+
+&:hover,
+&:focus {
+background-color: $title-Color;
+box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+&:hover {
+transform: translateY(-1px);
+
+&:active {
+    background-color: $title-Color;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+}
+}
+        }
     }
 
     @media (max-width: 760px) {
@@ -41,10 +94,7 @@
             
         }
 
-        .container_buttons {
-           display: none;
-           background-color: red;
-        }
+       
 
         
     }
