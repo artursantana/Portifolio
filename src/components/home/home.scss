@@ -11,7 +11,7 @@
 
 
     .home_div{
-        color: black;
+        color: $container-Color02;
         font-size: 100px; 
         position: absolute;
         left: 0;
@@ -45,7 +45,7 @@
         position: absolute;
         justify-content: flex-end;
         font-size: 100px; 
-        color: black;
+        color: $container-Color02;
         right: 0;
         top: 110px;
         opacity: 0.5;
@@ -81,9 +81,7 @@
 
 .intro { 
     width: 640px; height:300px ;
-    text-align: center;
-    color: white;
-    
+    text-align: center;    
 
     div {
         display: flex;
@@ -111,7 +109,7 @@
 
 
 .home_social-link {
-    color: black;
+    color: $container-Color02;
     font-size: 2.5rem;
     transition: .3s;
     
@@ -129,7 +127,7 @@
   border-radius: .25rem;
   box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
   box-sizing: border-box;
-  color: #fff;
+  color: $container-Color01;
   cursor: pointer;
   display: inline-flex;
   font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -182,7 +180,7 @@
         font-size: $small-font-size;
     }
     .mouse {
-        border: 2px solid #454360;
+        border: 2px solid $container-Color02;
         display: flex;
         height: 1.6rem;
         width: 1.25rem;
