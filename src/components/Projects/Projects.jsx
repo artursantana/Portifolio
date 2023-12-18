@@ -10,12 +10,22 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';*/
 
+
+const data = [
+  {
+    id: 1,
+    name: 'artur',
+    buttonDeploy: 'https://github.com/artursantana/Costs'
+    
+  }
+]
+
 const Projects = () => {
   
     return (
 
       <div>
-        
+
       </div>
 
 
