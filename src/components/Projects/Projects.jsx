@@ -15,8 +15,8 @@ const data = [
   {
     id: 1,
     name: 'artur',
-    buttonDeploy: 'https://github.com/artursantana/Costs'
-    buttonDeploy: 'https://github.com/artursantana/Costs'
+    buttonGit: 'https://github.com/artursantana/Costs',
+    buttonDeploy: 'https://github.com'
     
   }
 ]
@@ -26,7 +26,9 @@ const Projects = () => {
     return (
 
       <div>
-
+      {
+        data.map()
+      }
       </div>
 
 
