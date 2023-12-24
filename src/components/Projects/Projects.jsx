@@ -25,11 +25,7 @@ const Projects = () => {
   
     return (
 
-      <div>
-      {
-        data.map()
-      }
-      </div>
+     
 
 
      /* 
