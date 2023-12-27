@@ -24,7 +24,10 @@ const data = [
 const Projects = () => {
   
     return (
-
+      <div>
+        
+      </div>
+      );
      
 
 
@@ -97,7 +100,7 @@ const Projects = () => {
         </div>
         */
 
-      );
+      
 }
 
 export default Projects
